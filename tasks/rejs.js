@@ -15,16 +15,9 @@ module.exports = function(grunt) {
 
   var rejs = require('rejs');
 
-  function log(pString) {
-    grunt.log.writeln(pString);
-  }
-
   grunt.registerMultiTask('rejs', 'Grunt support for ReJS', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var tOptions = this.options({
-      punctuation: '.',
-      separator: ', ',
-      log: log
     });
 
     var tResolver = new rejs.Resolver(tOptions);

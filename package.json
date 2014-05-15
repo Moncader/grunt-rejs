@@ -39,6 +39,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "rejs": "0.0.0"
+    "rejs": "0.0.1"
   }
 }
