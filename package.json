@@ -1,0 +1,44 @@
+{
+  "name": "grunt-rejs",
+  "description": "Grunt support for ReJS",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Moncader/grunt-rejs",
+  "author": {
+    "name": "Jason Parrott",
+    "email": "parrott.jason@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Moncader/grunt-rejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Moncader/grunt-rejs/issues"
+  },
+  "licenses": [
+    {
+      "type": "ZLib",
+      "url": "https://github.com/Moncader/grunt-rejs/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "rejs": "0.0.0"
+  }
+}

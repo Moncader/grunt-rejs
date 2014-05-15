@@ -1,0 +1,13 @@
+var namespace = {};
+(function() {
+
+  namespace.one = {
+    hello: {}
+  };
+
+}());
+(function(global) {
+
+  global.namespace.one.hello.two = 'Hello, world!';
+
+}(this));
