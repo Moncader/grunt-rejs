@@ -30,8 +30,10 @@ grunt.initConfig({
     },
     your_target: {
       // Target-specific file lists and/or options go here.
-    },
-  },
+      files: {
+      }
+    }
+  }
 });
 ```
 
@@ -58,9 +60,11 @@ In this example, the default options are used to do something with whatever. So 
 grunt.initConfig({
   rejs: {
     options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    target: {
+      files: {
+        'dest/default_options': ['src/testing', 'src/123']
+      }
+    }
   },
 });
 ```
@@ -75,10 +79,12 @@ grunt.initConfig({
       separator: ': ',
       punctuation: ' !!!',
     },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
-  },
+    target: {
+      files: {
+        'dest/default_options': ['src/testing', 'src/123']
+      }
+    }
+  }
 });
 ```
 
